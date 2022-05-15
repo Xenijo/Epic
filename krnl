@@ -1,0 +1,6 @@
+  local response = request({
+    Url = ("%shttpbin.org/get"):format('http://'),
+    Method = "GET", -- Optional | GET, POST, HEAD, etc
+    Headers = {"Krnl-Hwid"}, -- Optional | HTTP Headers
+    Cookies = {} -- Optional | HTTP Cookies
+})
