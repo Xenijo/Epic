@@ -1,0 +1,4 @@
+  local _Result = syn.request{
+     Url = ('%shttpbin.org/get'):format('http://'),
+     Method = "GET",
+  }
