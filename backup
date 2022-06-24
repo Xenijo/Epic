@@ -2,6 +2,7 @@
 	ui-engine-v2
 	version 1.3a
 	by Singularity (V3rm @ King Singularity) (Discord @ Singularity#5490)
+
 --]]
 
 local ui_options = {
@@ -1261,8 +1262,8 @@ function library:AddWindow(title, options)
 						callback = typeof(callback) == "function" and callback or function()end
 						slider_options = typeof(slider_options) == "table" and slider_options or {}
 						slider_options = {
-							["min"] = slider_options.min or 16,
-							["max"] = slider_options.max or 300,
+							["min"] = slider_options.min or 3,
+							["max"] = slider_options.max or 100,
 							["readonly"] = slider_options.readonly or false,
 						}
 
