@@ -1262,7 +1262,7 @@ function library:AddWindow(title, options)
 						callback = typeof(callback) == "function" and callback or function()end
 						slider_options = typeof(slider_options) == "table" and slider_options or {}
 						slider_options = {
-							["min"] = slider_options.min or 3,
+							["min"] = slider_options.min or 16,
 							["max"] = slider_options.max or 100,
 							["readonly"] = slider_options.readonly or false,
 						}
