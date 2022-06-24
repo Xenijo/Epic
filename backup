@@ -1874,6 +1874,7 @@ function library:AddWindow(title, options)
 
 									Lines.Text = ""
 									for i = 1, lin do
+
 										Lines.Text = Lines.Text .. i .. "\n"
 									end
 
